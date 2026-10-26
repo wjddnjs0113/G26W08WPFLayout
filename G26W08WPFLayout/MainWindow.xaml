@@ -5,12 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:G26W08WPFLayout"
         mc:Ignorable="d"
-        Title="Layout" Height="450" Width="400">
+        Title="애창곡" Height="450" Width="400">
     <Border Padding="5" Background="LightGray">
         <ScrollViewer HorizontalScrollBarVisibility="Auto">
             <StackPanel>
                 <StackPanel Orientation="Horizontal" Height="100">
-                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <!--<Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>-->
+                    <Image Width="80" Height="80" Margin="10" 
+                           Source="https://picsum.photos/80/80?random=1"/>
                     <StackPanel VerticalAlignment="Center">
                         <TextBlock FontSize="25">여름밤, 너와 나의 주파수</TextBlock>
                         <TextBlock FontSize="20">데이아워 (DAYOUR)</TextBlock>
@@ -18,7 +20,9 @@
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Height="100">
-                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <!--<Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>-->
+                    <Image Width="80" Height="80" Margin="10" 
+                           Source="https://picsum.photos/80/80?random=2"/>
                     <StackPanel VerticalAlignment="Center">
                         <TextBlock FontSize="25">Strawberry Filter</TextBlock>
                         <TextBlock FontSize="20">루시드엘 (Lucid L)</TextBlock>
@@ -26,7 +30,9 @@
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Height="100">
-                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <!--<Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>-->
+                    <Image Width="80" Height="80" Margin="10" 
+                        Source="https://picsum.photos/80/80?random=3"/>
                     <StackPanel VerticalAlignment="Center">
                         <TextBlock FontSize="25">Glitch City</TextBlock>
                         <TextBlock FontSize="20">넥시스 (NEXIS)</TextBlock>
@@ -34,7 +40,9 @@
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Height="100">
-                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <!--<Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>-->
+                    <Image Width="80" Height="80" Margin="10" 
+                        Source="https://picsum.photos/80/80?random=4"/>
                     <StackPanel VerticalAlignment="Center">
                         <TextBlock FontSize="25">비가 그치면 우리는 서먹해질까</TextBlock>
                         <TextBlock FontSize="20">달과 밤</TextBlock>
@@ -42,7 +50,9 @@
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Height="100">
-                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <!--<Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>-->
+                    <Image Width="80" Height="80" Margin="10" 
+                        Source="https://picsum.photos/80/80?random=5"/>
                     <StackPanel VerticalAlignment="Center">
                         <TextBlock FontSize="25">Midnight Blue</TextBlock>
                         <TextBlock FontSize="20">시아 (Siah)</TextBlock>
@@ -50,7 +60,9 @@
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Height="100">
-                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <!--<Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>-->
+                    <Image Width="80" Height="80" Margin="10" 
+                        Source="https://picsum.photos/80/80?random=6"/>
                     <StackPanel VerticalAlignment="Center">
                         <TextBlock FontSize="25">신기루 (Mirage)</TextBlock>
                         <TextBlock FontSize="20">엔소닉스 (N-SONIX)</TextBlock>
