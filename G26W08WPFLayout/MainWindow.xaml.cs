@@ -17,5 +17,10 @@ namespace G26W08WPFLayout {
         public MainWindow() {
             InitializeComponent();
         }
+
+        private void OnButton(object sender, RoutedEventArgs e) {
+            MyLabel.Content = "오랜만입니다.";
+        }
+
     }
 }

@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:G26W08WPFLayout"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Layout" Height="450" Width="800">
+    <StackPanel Orientation="Vertical">
+        <Button Content="눌러주세요"/>
+        <Button>또 눌러주세요</Button>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="인사" Click="OnButton"/>
+            <Label x:Name="MyLabel" Content="안녕하세요" FontWeight="Bold"/>
+        </StackPanel>
+        <Button Content="눌러주세요"/>
+        <TextBlock Text="WPF" 
+            HorizontalAlignment="Center" 
+            FontSize="22" 
+            Foreground="Red"/>
+    </StackPanel>
 </Window>
