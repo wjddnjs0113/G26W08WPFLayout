@@ -18,5 +18,10 @@
             HorizontalAlignment="Center" 
             FontSize="22" 
             Foreground="Red"/>
+        <UniformGrid Rows="1">
+            <Button Content="버튼 1" Padding="10"/>
+            <Button Content="버튼 2" Margin="0 0 10 10"/>
+            <Button Content="버튼 3"/>
+        </UniformGrid>
     </StackPanel>
 </Window>
