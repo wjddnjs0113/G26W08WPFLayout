@@ -7,15 +7,26 @@
         mc:Ignorable="d"
         Title="Layout" Height="450" Width="400">
     <Border Padding="5" Background="LightGray">
-        <WrapPanel>
+        <Canvas>
             <Button Content="버튼 1"/>
             <Button Content="버튼 2"/>
-            <Button Content="버튼 3"/>
+            <Button Content="버튼 3" Panel.ZIndex="1"/>
             <Button Content="버튼 4"/>
             <Button Content="버튼 5"/>
             <Button Content="버튼 6"/>
             <Button Content="버튼 7"/>
-            <Button Content="버튼 8"/>
-        </WrapPanel>
+            <Button Content="버튼 8" Padding="10" Canvas.Left="50" Canvas.Top="50"/>
+
+            <Ellipse 
+                Width="100" 
+                Height="100" 
+                Fill="#faa" 
+                Canvas.Left="200" 
+                Canvas.Top="50"/>
+            <Path 
+                Stroke="Green" 
+                StrokeThickness="10"
+                Data="M 200,100 C 200,100 225,50 250,100 C 250,100 275,150 300,100" />
+        </Canvas>
     </Border>
 </Window>
