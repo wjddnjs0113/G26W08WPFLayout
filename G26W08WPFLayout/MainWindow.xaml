@@ -7,26 +7,56 @@
         mc:Ignorable="d"
         Title="Layout" Height="450" Width="400">
     <Border Padding="5" Background="LightGray">
-        <Canvas>
-            <Button Content="버튼 1"/>
-            <Button Content="버튼 2"/>
-            <Button Content="버튼 3" Panel.ZIndex="1"/>
-            <Button Content="버튼 4"/>
-            <Button Content="버튼 5"/>
-            <Button Content="버튼 6"/>
-            <Button Content="버튼 7"/>
-            <Button Content="버튼 8" Padding="10" Canvas.Left="50" Canvas.Top="50"/>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Height="100">
+                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock FontSize="25">여름밤, 너와 나의 주파수</TextBlock>
+                        <TextBlock FontSize="20">데이아워 (DAYOUR)</TextBlock>
+                    </StackPanel>
+                </StackPanel>
 
-            <Ellipse 
-                Width="100" 
-                Height="100" 
-                Fill="#faa" 
-                Canvas.Left="200" 
-                Canvas.Top="50"/>
-            <Path 
-                Stroke="Green" 
-                StrokeThickness="10"
-                Data="M 200,100 C 200,100 225,50 250,100 C 250,100 275,150 300,100" />
-        </Canvas>
+                <StackPanel Orientation="Horizontal" Height="100">
+                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock FontSize="25">Strawberry Filter</TextBlock>
+                        <TextBlock FontSize="20">루시드엘 (Lucid L)</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Height="100">
+                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock FontSize="25">Glitch City</TextBlock>
+                        <TextBlock FontSize="20">넥시스 (NEXIS)</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Height="100">
+                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock FontSize="25">비가 그치면 우리는 서먹해질까</TextBlock>
+                        <TextBlock FontSize="20">달과 밤</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Height="100">
+                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock FontSize="25">Midnight Blue</TextBlock>
+                        <TextBlock FontSize="20">시아 (Siah)</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Height="100">
+                    <Rectangle Fill="DeepPink" Width="80" Height="80" Margin="10"/>
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock FontSize="25">신기루 (Mirage)</TextBlock>
+                        <TextBlock FontSize="20">엔소닉스 (N-SONIX)</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
     </Border>
 </Window>
