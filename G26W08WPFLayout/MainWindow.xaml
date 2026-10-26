@@ -5,25 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:G26W08WPFLayout"
         mc:Ignorable="d"
-        Title="Layout" Height="450" Width="800">
+        Title="Layout" Height="450" Width="400">
     <Border Padding="5" Background="LightGray">
-        <StackPanel Orientation="Vertical">
-            <Button Content="눌러주세요"/>
-            <Button>또 눌러주세요</Button>
-            <StackPanel Orientation="Horizontal">
-                <Button Content="인사" Click="OnButton"/>
-                <Label x:Name="MyLabel" Content="안녕하세요" FontWeight="Bold"/>
-            </StackPanel>
-            <Button Content="눌러주세요"/>
-            <TextBlock Text="WPF" 
-            HorizontalAlignment="Center" 
-            FontSize="22" 
-            Foreground="Red"/>
-            <UniformGrid Rows="1">
-                <Button Content="버튼 1" Padding="10"/>
-                <Button Content="버튼 2" Margin="0 0 10 10"/>
-                <Button Content="버튼 3"/>
+        <DockPanel>
+            <Button Content="위쪽" DockPanel.Dock="Top"/>
+            <Button Content="왼쪽" DockPanel.Dock="Left"/>
+            <Button Content="위쪽 3" DockPanel.Dock="Top"/>
+            <Button Content="오른" DockPanel.Dock="Right"/>
+            <Button Content="위쪽 2" DockPanel.Dock="Top"/>
+            <Button Content="오른 2" DockPanel.Dock="Right"/>
+            <Button Content="아래" DockPanel.Dock="Bottom"/>
+            <Button Content="왼쪽 2" DockPanel.Dock="Left"/>
+            <Button Content="아래 2" DockPanel.Dock="Bottom"/>
+            <UniformGrid Rows="2">
+                <Button Content="버튼 5"/>
+                <Button Content="버튼 6"/>
+                <Button Content="버튼 7"/>
+                <Button Content="버튼 8"/>
             </UniformGrid>
-        </StackPanel>
+        </DockPanel>
     </Border>
 </Window>
